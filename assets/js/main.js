@@ -25,8 +25,12 @@ const sombre=document.getElementById("icone_nav");
 const x=sombre.addEventListener("click",functionsombre);
 
 function functionsombre(){
-    if(document.body.style.backgroundColor == "white")
-    document.body.style.backgroundColor = "DimGray";
-    else 
+    if(document.body.style.backgroundColor == "white"){
+    document.body.style.backgroundColor = "#15202B";
+    document.body.style.color="white";    
+    }
+    else {
     document.body.style.backgroundColor = "white";
+    document.body.style.color="black";
+    }
 }
