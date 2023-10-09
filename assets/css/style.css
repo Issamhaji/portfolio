@@ -106,6 +106,7 @@
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
+    margin: auto;
     
   }
   .l-header{
@@ -172,6 +173,11 @@
   .home{
     height: calc(100vh - 3rem);
     row-gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .home .content{
+    padding-top: 10%;
   }
   .home-data{
     align-self: center;
@@ -208,7 +214,7 @@
     color: var(--first-color);
   }
   .home-img{
-    position: absolute;
+    
     right: 0;
     bottom: 0;
     width: 295px;
