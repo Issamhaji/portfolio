@@ -130,6 +130,7 @@
     font-size: 1.5rem;
     cursor: pointer;
     align-items: center;
+    color: #0E2431;
   }
   .nav-item{
     margin-bottom: var(--mb-4);
